@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="FiCSweetAlert">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>Msg</Id>
+          <Name>Msg</Name>
+          <Type>Text</Type>
+          <Default>My Msg</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Type</Id>
+          <Name>Type</Name>
+          <Type>Text</Type>
+          <Default>success</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>TxtButton</Id>
+          <Name>TxtButton</Name>
+          <Type>Text</Type>
+          <Default>Yes</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>TxtTitle</Id>
+          <Name>TxtTitle</Name>
+          <Type>Text</Type>
+          <Default>Alert</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>link</Id>
+          <Name>link</Name>
+          <Type>Text</Type>
+          <Default>#</Default>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>showAlert</Id>
+          <Name>showAlert</Name>
+          <Type>Text</Type>
+          <Metadata>
+            <Value name="FlagScope">Runtime</Value>
+            <Value name="FlagSetValueMethod">setShowAlert</Value>
+          </Metadata>
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>
